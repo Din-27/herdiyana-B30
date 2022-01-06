@@ -1,0 +1,147 @@
+* {
+    
+    font-family: cursive;
+}
+
+body {
+    margin: 0;
+    background-image: url(img/backgroun-white.jpg);
+    display:table;
+    width:100%;
+    background-position:center top;
+    height:350px;
+}
+
+nav {
+    background-color:rgb(116, 116, 116);
+    display: flex;
+    background-position: left;
+    height: 10vh;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.829);
+}
+
+nav .kiri {
+    flex: 50%;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+nav .kiri li {
+    display: inline;
+    margin: 0px 15px
+}
+
+nav .kiri ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    border-radius: 100%;
+    text-shadow:0px 0px 5px rgba(0, 0, 0, 0.829);
+}
+
+
+nav .kanan {
+    flex: 50%;
+    display: flex;
+    padding: 10px;
+    justify-content: right;
+    align-items: center;
+    padding-right: 80px;
+}
+
+nav .kanan a {
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+}
+
+.container .section {
+    display: flex;
+    width: 85%;
+}
+
+.section .left {
+    flex: 30%;
+}
+
+.section .kanan {
+    flex: 70%;
+    padding-left: 70px;
+    padding-top: 25px;
+    margin: 20px;
+}
+
+.section .kanan p {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.section .bawah {
+    display: flex;
+    color: white;
+}
+
+.section .bawah div {
+    margin-right: 20px;
+}
+
+.skill-container div img {
+    flex: 1;
+    width: 50px;
+    height: 50px;
+}
+
+form {
+    width:280px;
+    margin: 5px auto;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding-bottom: 50px;
+}
+
+input[type=text],input[type=email],input[type=number], select, textarea {
+    background-color:rgba(116, 116, 116, 0.973);
+    border-radius: 5px;
+    width: 100%;
+    padding: 7px;
+    margin-top: 4px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+input[type=checkbox] {
+    margin: 15px 0 25px 0;
+}
+
+button {
+    padding: 10px 20px; 
+    margin-top:  15px;
+    border-radius: 4px; 
+    background-color: red;
+    color:white;
+    border: none;
+    cursor:pointer;
+    font-size: 20px;
+    
+}
+
+h1[class=title] {
+    text-align: center;
+    background-color: rgb(163, 0, 0);
+    margin: 20px 400px 10px 400px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.829);
+}
